@@ -1,8 +1,5 @@
-activate:
-	@source ./venv/bin/activate
-
 start-server:
 	@cd server && uvicorn main:app --host 0.0.0.0 --port 8000 --reload
 
 test-server:
-	@pytest -v ./server/tests
+	@cd server && pytest -v ./tests

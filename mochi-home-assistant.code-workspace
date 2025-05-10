@@ -1,0 +1,27 @@
+{
+	"folders": [
+		{
+                        "path": ".",
+                        "name": "root"
+                },
+                {
+			"path": "./docs",
+                        "name": "docs"
+		},
+		{
+			"path": "./dashboard",
+                        "name": "dashboard"
+		},
+                {
+                        "path": "./server",
+                        "name": "server"
+                }
+	],
+        "settings": {
+                "files.exclude": {
+                        "docs": true,
+                        "dashboard": true,
+                        "server": true
+                }
+        }
+}
