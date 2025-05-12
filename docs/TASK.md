@@ -3,21 +3,21 @@
 ## Setup & Infrastructure
 
 1. **Project Repository Setup**
-   - [ ] Initialize Git repository
+   - [x] Initialize Git repository
    - [ ] Define branch strategy (main, dev, feature branches)
-   - [ ] Create `.gitignore` for Python, SvelteKit, and model files
-   - [ ] Write initial `README.md`
+   - [x] Create `.gitignore` for Python (SvelteKit/model files not confirmed)
+   - [x] Write initial `README.md`
 
 2. **Backend Environment**
-   - [ ] Create Python 3.12 virtual environment
+   - [x] Create Python 3.12 virtual environment
    - [ ] Install and pin core dependencies:
      - [ ] LangChain
      - [ ] langchain-mcp-adapters
      - [ ] fastmcp
      - [ ] whisper.cpp wrapper
      - [ ] TTS engine (Piper or Coqui TTS)
-   - [ ] Set up basic backend scaffolding
-   - [ ] Write `requirements.txt` with pinned versions
+   - [x] Set up basic backend scaffolding
+   - [x] Write `requirements.txt` with pinned versions
 
 3. **LLM Runtime**
    - [ ] Install `llama.cpp` or `Ollama`
@@ -62,7 +62,7 @@
 ## Testing & Deployment
 
 10. **Testing**
-    - [ ] Unit tests for MCP tools
+    - [x] Unit tests for MCP tools (at least one test file exists)
     - [ ] Integration tests for full voice pipeline
     - [ ] Load testing of LLM response loop
 
